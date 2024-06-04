@@ -9,6 +9,6 @@ class DivisionController < ApplicationController
 
     @result =  first_number / @second_number
 
-    render({ :template => "division_templates/divide_result" })
+    render({ :template => "division_templates/divide_results" })
   end
 end
