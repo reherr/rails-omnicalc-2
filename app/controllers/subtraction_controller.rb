@@ -4,8 +4,8 @@ class SubtractionController < ApplicationController
   end
 
   def subtract
-    @first_number = params.fetch("first_num").to_f
-    second_number = params.fetch("second_num").to_f
+    @first_number = params.fetch("first_number").to_f
+    @second_number = params.fetch("second_number").to_f
 
     @result =  @second_number - @first_number
 
