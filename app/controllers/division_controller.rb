@@ -9,7 +9,7 @@ class DivisionController < ApplicationController
 
     @result =  @first_number / @second_number
 
-    if @second_num != 0
+    if @second_number != 0
       if (@first_number % @second_number) == 0
         puts @first_number / @second_number
       else
