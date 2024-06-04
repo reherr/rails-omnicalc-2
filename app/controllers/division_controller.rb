@@ -10,10 +10,10 @@ class DivisionController < ApplicationController
     @result =  @first_number / @second_number
 
     if @second_num != 0
-      if (@first_num % @second_num) == 0
-        puts @first_num / @second_num
+      if (@first_number % @second_number) == 0
+        puts @first_number / @second_number
       else
-        @result = @first_num / @second_num
+        @result = @first_number / @second_number
         @formatted_result = sprintf("%.16f", @result)
         puts @formatted_result
       end
